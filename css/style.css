@@ -1,0 +1,442 @@
+/* ここから下に記載していく */
+.header01 {
+    padding: 16px 24px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header01-logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header01-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-logo{
+    padding: 20px;
+}
+
+.header-menu {
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+.item {
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(../img/mainbg.png);
+    color: rgb(255, 255, 255);
+    background-size: cover;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    padding: 25px;
+    font-weight: bold;
+}
+
+.about-style {
+    width: 1170px;
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+.about-container {
+    width: 1170px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-picture {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+
+/* コース↓*/
+.course-style {
+    width: 1170px;
+    padding: 40px 0 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.course-container {
+    width: 1170px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.course-container p {
+    margin-bottom: 30px;
+}
+
+
+.cp_accordionslide02 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    visibility: hidden;
+    width: 100%;
+    height: 60vh;
+}
+
+.cp_accordionslide02 .slideitem {
+    position: relative;
+    visibility: visible;
+    overflow: hidden;
+    width: 40%;
+    height: 100%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cp_accordionslide02 .slideitem:nth-child(1) {
+    background-image: url(../img/cheese\ img3.png);
+}
+
+.cp_accordionslide02 .slideitem:nth-child(2) {
+    background-image: url(../img/cheese\ img2.png);
+}
+
+.cp_accordionslide02 .slideitem:nth-child(3) {
+    background-image: url(../img/cheese\ img1.png);
+}
+
+.cp_accordionslide02 .slideitem:after {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0;
+}
+
+.cp_accordionslide02:hover .slideitem:hover {
+    width: 60%;
+}
+
+.cp_accordionslide02 .slideitem .slidecont {
+    position: absolute;
+    z-index: 4;
+    bottom: 60px;
+    left: 30px;
+    visibility: hidden;
+    max-width: 400px;
+    padding: 60px;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: rgba(230, 74, 25, 0.8);
+}
+
+.cp_accordionslide02 .slideitem .slidecont h2 {
+    font-size: 25px;
+    font-weight:bold
+}
+
+.cp_accordionslide02 .slideitem .slidecont p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.cp_accordionslide02:hover .slideitem:hover .slidecont {
+    bottom: 30px;
+    visibility: visible;
+    -webkit-transition: all 0.2s linear 0.5s;
+    transition: all 0.2s linear 0.5s;
+    opacity: 1;
+}
+
+
+/* NEWS↓*/
+.news-style {
+    width: 1170px;
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.news-container {
+    width: 1170px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.my-parts {
+    display: inline-block;
+    text-decoration: none;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .1);
+    text-align: left;
+    margin-left: 80px;
+    padding: 10px;
+}
+
+.my-parts .my-parts-img {
+    text-align: center;
+}
+
+.my-parts .my-parts-img img {
+    vertical-align: bottom;
+    margin: 0;
+}
+
+.my-parts .my-parts-body {
+    padding: .4em;
+}
+
+.my-parts .my-parts-body time {
+    color: #666;
+    font-size: .875em;
+}
+
+.my-parts .my-parts-title {
+    font-size: 1.2em;
+    color: #333;
+    margin: .4em 0;
+}
+
+.my-parts .my-parts-body p {
+    font-size: .95em;
+    color: #666;
+    margin: 5px;
+}
+
+.news-contents{
+    text-align: center;
+}
+
+/* NEWS↑*/
+
+/* アクセス 地図↓*/
+.access-style {
+    width: 1170px;
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.access-container {
+    width: 1170px;
+    padding: 15px 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.map{
+    height: auto;
+    width: 100%;
+    padding-bottom: 25%;
+    position: relative;
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.access-container2 {
+    width: 1170px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.list p {
+    padding: 10px;
+}
+
+/* アクセス 地図↑*/
+
+/* ↓コンタクト文字*/
+.course-style {
+    width: 1170px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.course-container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.text {
+    justify-content: center;
+
+}
+
+.text p {
+    font-size: 12px;
+}
+
+.box-one {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-style {
+    width: 1170px;
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container {
+    width: 1170px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* ↑コンタクト文字*/
+
+/* ↓コメントフォーム*/
+.Form {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+}
+
+.Form-Item {
+    border-top: 1px solid #ddd;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Form-Item:nth-child(5) {
+    border-bottom: 1px solid #ddd;
+}
+
+.Form-Item-Label {
+    width: 100%;
+    max-width: 248px;
+    letter-spacing: 0.05em;
+    font-size: 11px;
+}
+
+.Form-Item-Label.isMsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+}
+
+.Form-Item-Label-Required {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    background: #ffae00;
+    color: #fff;
+    font-size: 14px;
+}
+
+.Form-Item-Input {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+}
+
+.Form-Item-Textarea {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 216px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+}
+
+.Form-Btn {
+    border-radius: 6px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 280px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: #f9b31a;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.check_lb {
+    display: block;
+    margin-left: 80px;
+    padding-left: 2em;
+    padding-bottom: 20px;
+}
+
+/* ↑コメントフォーム*/
+
+.footer {
+    background-color: #666;
+    color:rgb(255, 255, 255);
+    padding: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
